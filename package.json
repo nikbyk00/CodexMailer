@@ -1,0 +1,35 @@
+{
+  "name": "codexmailer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5", 
+    "express": "^4.18.2",
+    "hash-generator": "^0.1.0",
+    "http": "^0.0.1-security", 
+    "nodemailer": "^6.9.0",
+    "path": "^0.12.7",
+    "script": "^0.1.4",
+    "type": "^2.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikbyk00/CodexMailer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  
+  "bugs": {
+    "url": "https://github.com/nikbyk00/CodexMailer/issues"
+  },
+  "homepage": "https://github.com/nikbyk00/CodexMailer#readme"
+  
+}
