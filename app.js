@@ -19,7 +19,7 @@ app.use(express.json({ limit: process.env.SERVER_CLIENT_MAX_BODY_SIZE }));
 app.use(express.urlencoded({ extended: false, limit: process.env.SERVER_CLIENT_MAX_BODY_SIZE }));
 
 
-app.use('/user', user);
+app.use('/api/user', user);
 
 
 const port = normalizePort(process.env.SERVER_PORT || '4000');
